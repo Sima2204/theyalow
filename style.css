@@ -7,3 +7,122 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper {
+    max-width: 1300px;
+    background-color: rgb(160, 160, 138);
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo__link {
+    width: 83px;
+    height: 83px; 
+}
+
+.background-icon__first {
+    position: absolute;
+    background: url(./assets/svg/logo.svg) no-repeat center;
+    width: 83px;
+    height: 83px;
+}
+
+.background-icon__second {
+    position: relative;
+    background: url(./assets/svg/logo-bg.svg) no-repeat center;
+    width: 83px;
+    height: 83px;
+}
+
+.header-heading {
+    padding-top: 16px;
+    padding-left: 6px;
+    font-size: 41px;
+    font-family: 'Lucida Sans';
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
+}
+
+.header-nav__list {
+    margin-top: 71px;
+    height: 41px;
+    display: flex;
+    box-shadow: -8px -8px 1px #c5a62a7e,
+    -4px -5px 1px #af921dd2;
+}
+
+.header-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 41px;
+    background:rgb(238, 193, 15);
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header-item:not(:first-child):not(:last-child) {
+    border-left: 0.1px solid #9b7d08;
+    border-right: 0.1px solid #9b7d08;
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "SegoeWP";
+    color: rgb(155, 125, 8);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.nav__img {
+    width: 24px;
+    height: 18px;
+}
+  
+
+
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        min-width: 360px;
+        max-width: 640px;
+    }
+}
+  
+/* .Rectangle_2_copy {
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    position: absolute;
+    left: 707px;
+    top: 71px;
+    width: 453px;
+    height: 41px;
+    z-index: 87;
+  } */
+
+  
+  
+  
