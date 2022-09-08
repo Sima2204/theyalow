@@ -52,27 +52,39 @@
     <main class="main">
 
         <section class="intro">
+
             <div class="intro__wrapper">
-                <div class="video__container">
-                    <video width="549" height="327" class="video__player">
-                    </video>
-                    <button class="video__play"></button>
-                    <div class="video__controls">
-                        <button class="video__controls-play"></button>
-                        <div class="video__controls-line">
-                            <div class="video__controls-line-fill"></div>
-                            <div class="video__controls-line-trans"></div>
+
+                <div class="video__wrapper">
+                    <div class="video__container">
+                        <video class="video__player" poster="./assets/img/video-preview_image.png"></video>
+                        <button class="video__play">
+                            <img src="./assets/svg/button_play.svg" alt="play-button" class="play__img">
+                        </button>
+                        <div class="video__controls">
+                            <button class="video__controls-play"></button>
+                            <div class="video__controls-line">
+                                <div class="video__controls-line-fill"></div>
+                                <div class="video__controls-line-trans"></div>
+                            </div>
+                            <button class="video__controls-volume"></button>
                         </div>
-                        <button class="video__controls-volume"></button>
+                    </div>
+                    <div class="video__title">
+                        <h2 class="title-first">the cool</h2>
+                        <h2 class="title-second">the minimal</h2>
                     </div>
                 </div>
-                <div class="video__title">
-                    <h2 class="title-first">the cool</h2>
-                    <h2 class="title-second">the minimal</h2>
-                </div>
-                <button class="button-prev-video" type="button"></button>
-                <button class="button-next-video" type="button"></button>
+
+                <button class="button-prev-video" type="button">
+                    <img src="./assets/svg/button_prev.svg" alt="prev-video" class="prev__img">
+                </button>
+                <button class="button-next-video" type="button">
+                    <img src="./assets/svg/button-next.svg" alt="next-video" class="next__img">
+                </button>
+                
             </div>
+
         </section>
 
     </main>
