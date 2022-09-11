@@ -96,6 +96,7 @@ html {
     padding-top: 25px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .header-logo__link {
@@ -140,6 +141,10 @@ html {
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
+}
+
+.header-link:hover {
+    color: rgb(235, 233, 227);
 }
 
 .header-item:not(:first-child):not(:last-child) {
@@ -226,6 +231,10 @@ html {
 	top: calc(50% - 31px);
 }
 
+.video__play:hover {
+    background: #977e18;
+}
+
 .play__img {
     padding-left: 6px;
     padding-top: 3px;
@@ -249,6 +258,10 @@ html {
     overflow: hidden;
 }
 
+.video__controls-play:hover {
+    background: #977e18;
+}
+
 .play-controls__img {
     padding-left: 3px;
     padding-top: 2px;
@@ -257,6 +270,7 @@ html {
 .video__controls-line {
     padding-top: 8px;
     display: flex;
+    cursor: pointer;
 }
 
 .video__controls-line-active {
@@ -291,6 +305,11 @@ html {
     padding-top: 2px;
 }
 
+.volume-controls__img:hover {
+    width: 20px;
+    height: 20px;
+}
+
 .button-prev-video {
     cursor: pointer;
     position: absolute;
@@ -306,6 +325,10 @@ html {
     background: url(./assets/svg/button_prev.svg);
 }
 
+.button-prev-video:hover {
+    background: #977e18;
+}
+
 .button-next-video {
     cursor: pointer;
     position: absolute;
@@ -319,6 +342,10 @@ html {
 
 .next__img {
     background: url(./assets/svg/button-next.svg);
+}
+
+.button-next-video:hover {
+    background: #977e18;
 }
 
 .video__title {
@@ -476,6 +503,16 @@ html {
     background-position: 0 0;
 }
 
+.elements__add:hover {
+    animation:spin 1s;
+}
+
+@keyframes spin {  
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
 .elements__video {
     padding-right: 20px;
     width: 33%;
@@ -496,6 +533,11 @@ html {
     position: absolute;
     left: calc(50% - 35px);
     top: calc(50% - 24.941px);
+    cursor: pointer;
+}
+
+.elements__video-play:hover {
+    background: #977e18;
 }
 
 .play-elements__img {
@@ -682,6 +724,7 @@ footer {
     display: flex;
     align-items: center;
     padding-bottom: 4px;
+    cursor: pointer;
 }
 
 .footer-logo__link {
