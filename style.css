@@ -609,6 +609,22 @@ html {
     display: flex;
 }
 
+.devices__list {
+    display: block;
+    width: 383px;
+    padding-left: 34px;
+    margin-top: 57px;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    color: #a9a9a7;
+    letter-spacing: 0.1px;
+}
+
+.devises__li {
+    list-style-image: url(./assets/svg/ellipse.svg);
+    padding-right: 2px; 
+}
+
 /* devices style end */
   
 @media screen and (max-width: 640px) {
