@@ -182,7 +182,7 @@ html {
 
 /* header style end */
 
-/* introduction style start */
+/* intro style start */
 
 .intro {
     margin: 0 auto;
@@ -348,7 +348,7 @@ html {
     font-weight: 100;
 }
 
-/* introduction style end */
+/* intro style end */
 
 /* possibilities style start */
 
@@ -581,7 +581,7 @@ html {
 
 /* devices style start */
 
-.devices__bg {
+.devices {
     max-width: 1300px;
     margin: 0 auto;
     background: url(./assets/img/devices-bg.png) no-repeat center;
@@ -603,27 +603,112 @@ html {
     text-transform: uppercase;
     color: #f5c506;
     font-weight: 400;
+    margin-bottom: 44px;
 }
 
 .devices__info {
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.devices__images {
+    position: relative;
+    padding-left: 18px;
+}
+
+.devices__advertising {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    top: -41px;
+    left: -3px;
+    background-color: #f5c506;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.9px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.tablet__image {
+    padding: 0 22px 39px 19px;
+}
+
+.mobile__image {
+    padding-bottom: 39px;
 }
 
 .devices__list {
     display: block;
     width: 383px;
-    padding-left: 34px;
-    margin-top: 57px;
+    padding-left: 22px;
+    margin-top: 45px;
     font-family: 'Open Sans';
     font-size: 22px;
-    color: #a9a9a7;
     letter-spacing: 0.1px;
+    color: #a9a9a7;
 }
 
 .devises__li {
-    list-style-image: url(./assets/svg/ellipse.svg);
-    padding-right: 2px; 
+    list-style-image: url(./assets/svg/ellipse.svg); 
+    padding-left: 12px;
+    margin-bottom: 14px;
 }
+
+/* footer styles start */
+
+footer {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #4c4c4c;
+    border-top: solid 1px black;
+    box-shadow: 0 -2px 2px #000;
+}
+
+.footer__wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-logo {
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.footer-logo__link {
+    width: 54px;
+    height: 54px; 
+}
+
+.footer-background__icon {
+    width: 54px;
+    height: 54px;
+}
+
+.footer-heading {
+    padding-top: 3px;
+    padding-left: 6px;
+    font-size: 29px;
+    font-family: 'Lucida Sans';
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
+}
+
+/* footer styles end */
 
 /* devices style end */
   
