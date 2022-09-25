@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Theyalow</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_parrot.png">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon_parrot.png">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./fonts/lucidaSans/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Asap/stylesheet.css">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./fonts/Asap/stylesheet.css">
     <link rel="stylesheet" href="./fonts/SegouUI/stylesheet.css">
 </head>
+
 <body>
 
     <header class="header">
@@ -20,6 +21,7 @@
             <div class="header-logo">
                 <a href="#" class="header-logo__link">
                     <img src="./assets/svg/logo.svg" alt="logo" class="background-icon">
+                    <img src="./assets/svg/logo__mob.svg" alt="logo-mob" class="background-mob-icon">
                 </a>
                 <h1 class="header-heading">Theyalow</h1>
             </div>
@@ -53,6 +55,7 @@
                 <div class="video__wrapper">
                     <div class="video__container">
                         <video class="video__player" poster="./assets/img/video-preview_image.png"></video>
+                        <video class="video__player-mob" poster="./assets/img/video-preview_image-mob.png"></video>
                         <button class="video__play">
                             <img src="./assets/svg/button_play.svg" alt="play-button" class="play__img">
                         </button>
@@ -61,8 +64,9 @@
                                 <img src="./assets/svg/button_play-controls.svg" alt="play-controls-button" class="play-controls__img">
                             </button>
                             <div class="video__controls-line">
-                                <div class="video__controls-line-active"></div>
-                                <div class="video__controls-line-all"></div>
+                                <div class="video__controls-line-all">
+                                    <div class="video__controls-line-active"></div>
+                                </div>
                             </div>
                             <button class="video__controls-volume">
                                 <img src="./assets/svg/button_volume.svg" alt="volume-controls-button" class="volume-controls__img">
@@ -88,15 +92,15 @@
             <div class="possibilities__wrapper">
                 <div class="design">
                     <img src="./assets/svg/design_svg.svg" alt="design" class="design__img">
-                    <h3 class="design__title">better design</h3>
+                    <h3 class="design__title design__title-first">better design</h3>
                 </div>
                 <div class="customize">
                     <img src="./assets/svg/customize_svg.svg" alt="customise" class="customise__img">
-                    <h3 class="design__title">customise</h3>
+                    <h3 class="design__title design__title-second">customise</h3>
                 </div>
                 <div class="free">
                     <img src="./assets/svg/free_svg.svg" alt="it-is-free" class="free__img">
-                    <h3 class="design__title">its free</h3>
+                    <h3 class="design__title design__title-third">its free</h3>
                 </div>
             </div>
         </section>
@@ -107,18 +111,38 @@
                 <div class="elements__box">
                     <div class="elements__description">
                         <p class="elements__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut</p>
+                        <p class="elements__text-mob">Lorem ipsum dolor sit amet, consecte- tur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                         <a href="#" class="elements__add"></a>       
                     </div>
                     <div class="elements__video">
-                        <video class="video__poster" poster="./assets/img/elements-video-preview-image.png"></video>
+                        <video class="video__poster" width="315" height="232" poster="./assets/img/elements-video-preview-image.png"></video>
                         <button class="elements__video-play">
                             <img src="./assets/svg/elements-play.svg" alt="play-elements-button" class="play-elements__img">
                         </button>
                     </div>
                     <div class="elements__twitter">
                         <img src="./assets/img/twitter.png" alt="twitter-logo" class="elements__twitter-logo">
+                        <div class="twitter-messages">
+                            <ul class="twitter-messages__list">
+                                <li>Daily Mobile UI Design Inspiration #1
+                                    <br>
+                                    via @cssauthor</li>
+                                <li>Daily Mobile UI Design Inspiration #1
+                                    <br>
+                                    via @cssauthor</li>
+                                <li>Daily Mobile UI Design Inspiration #1
+                                    <br>
+                                    via @cssauthor</li>
+                            </ul>
+                            <form class="twitter-messages__form">
+                                <input type="text" placeholder="" class="twitter-messages__input">
+                                <button type="submit" class="twitter-messages__button">
+                                    Tweet
+                                </button>
+                            </form>
+                        </div>
                         <p class="elements__notifications">22</p>
-                        <a href="#" class="elements__add"></a> 
+                        <a href="#" class="twitter__add"></a> 
                     </div>
                 </div>
                 <div class="elements__date">
@@ -158,6 +182,7 @@
             <div class="footer-logo">
                 <a href="#" class="footer-logo__link">
                     <img src="./assets/img/logo.png" alt="footer-logo" class="footer-background__icon">
+                    <img src="./assets/svg/logo__mob.svg" alt="logo-mob" class="footer-background__mob-icon">
                 </a>
                 <h1 class="footer-heading">Theyalow</h1>
             </div>
